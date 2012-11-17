@@ -1,0 +1,252 @@
+*VT100*foreground: gray95
+*VT100*background: black
+*VT100*cursorColor: #ff5544
+
+! *VT100*color4: #6677ff
+*VT100*color4: #2233cc
+*XTerm*color4: #2233cc
+
+! XTerm*VT100.colorBDMode: on
+XTerm*VT100.colorBDMode: off
+
+*VT100*color1: #ff4444
+
+Xcursor.theme: Bluecurve-FC6
+
+
+*XTerm*foreground: gray95
+*XTerm*background: black
+
+*XTerm*scrollBar: false
+
+
+XTerm*metaSendsEscape: true
+XTerm*eightBitInput: false
+
+UXTerm*metaSendsEscape: true
+UXTerm*eightBitInput: false
+
+! XTerm*iconPixmap: /usr/include/X11/bitmaps/xlogo64
+
+
+! XTerm*iconName: terminal
+
+*XConsole*font: -*-terminus-medium-*-normal-*-12-*-*-*-*-*-*-*
+*XConsole*foreground: white
+*XConsole*background: black
+
+*XTerm.boldMode: false
+*XTerm.boldFont: -*-terminus-medium-*-normal-*-16-*-*-*-*-*-*-*
+*UXTerm.boldFont: -*-terminus-medium-*-normal-*-16-*-*-*-*-*-*-*
+
+! standard xterm font is defined here:
+! *VT100*font: -*-terminus-medium-*-normal-*-16-*-*-*-*-*-*-*
+! *UXTerm*font: -*-terminus-medium-*-normal-*-16-*-*-*-*-*-*-*
+! *XTerm*font: -*-terminus-medium-*-normal-*-16-*-*-*-*-*-*-*
+*VT100*font: -*-terminus-medium-*-normal-*-12-*-*-*-*-*-*-*
+*XTerm*font: -*-terminus-medium-*-normal-*-12-*-*-*-*-*-*-*
+*UXTerm*font: -*-terminus-medium-*-normal-*-12-*-*-*-*-*-*-*
+
+
+
+*fontMenu*font1*Label: Terminus 12 (Default)
+*VT100*font1: -*-terminus-medium-*-normal-*-12-*-*-*-*-*-*-*
+*XTerm*font1: -*-terminus-medium-*-normal-*-12-*-*-*-*-*-*-*
+*UXTerm*font1: -*-terminus-medium-*-normal-*-12-*-*-*-*-*-*-*
+
+*fontMenu*font2*Label: Terminus 14
+*VT100*font2: -*-terminus-medium-*-normal-*-14-*-*-*-*-*-*-*
+*UXTerm*font2: -*-terminus-medium-*-normal-*-14-*-*-*-*-*-*-*
+*XTerm*font2: -*-terminus-medium-*-normal-*-14-*-*-*-*-*-*-*
+
+*fontMenu*font3*Label: Terminus 16
+*VT100*font3: -*-terminus-medium-*-normal-*-16-*-*-*-*-*-*-*
+*UXTerm*font3: -*-terminus-medium-*-normal-*-16-*-*-*-*-*-*-*
+*XTerm*font3: -*-terminus-medium-*-normal-*-16-*-*-*-*-*-*-*
+
+*fontMenu*font4*Label: Terminus 17
+*VT100*font4: -*-terminus-medium-*-normal-*-17-*-*-*-*-*-*-*
+*UXTerm*font4: -*-terminus-medium-*-normal-*-17-*-*-*-*-*-*-*
+*XTerm*font4: -*-terminus-medium-*-normal-*-17-*-*-*-*-*-*-*
+
+*fontMenu*font5*Label: Terminus 20
+*VT100*font5: -*-terminus-medium-*-normal-*-20-*-*-*-*-*-*-*
+*UXTerm*font5: -*-terminus-medium-*-normal-*-20-*-*-*-*-*-*-*
+*XTerm*font5: -*-terminus-medium-*-normal-*-20-*-*-*-*-*-*-*
+
+*fontMenu*font6*Label: Terminus 24
+*VT100*font6: -*-terminus-medium-*-normal-*-24-*-*-*-*-*-*-*
+*UXTerm*font6: -*-terminus-medium-*-normal-*-24-*-*-*-*-*-*-*
+*XTerm*font6: -*-terminus-medium-*-normal-*-24-*-*-*-*-*-*-*
+
+*UXTerm*shiftFonts: true
+*XTerm*shiftFonts: true
+*VT100*shiftFonts: true
+
+! *UXTerm*translations:#override\n !Ctrl <KeyPress> +: larger-vt-font()\n !Ctrl <KeyPress> -: smaller-vt-font()
+! *VT100*translations:#override\n !Ctrl <KeyPress> -: smaller-vt-font()\n !Ctrl <KeyPress> +: larger-vt-font()
+! *XTerm*translations:#override\n !Ctrl <KeyPress> -: smaller-vt-font()\n !Ctrl <KeyPress> +: larger-vt-font()
+
+
+
+
+! ! rxvt.font:            Lucida Console-14
+! URxvt.font:            -*-terminus-medium-*-normal-*-16-*-*-*-*-*-*-*
+! URxvt.scrollBar:       False
+! URxvt.scrollBar_right: True
+! URxvt.visualBell:      False
+! URxvt.loginShell:      True
+! URxvt.geometry:        80x25
+! URxvt.background:      Black
+! URxvt.foreground:      White
+! URxvt.cursorColor:     Green
+! URxvt.cursorColor1:    Pink
+! URxvt.colorBD:         Red
+! URxvt.colorUL:         Yellow
+! URxvt.saveLines:       200
+
+! My custom colors
+! URxvt*color0:    #000000
+! URxvt*color1:    #FF2020
+! URxvt*color2:    #20FF20
+! URxvt*color3:    #FFFF00
+! URxvt*color4:    #4040FF
+! URxvt*color5:    #A800A8
+! URxvt*color6:    #00A8A8
+! URxvt*color7:    #D8D8D8
+! URxvt*color8:    #000000
+! URxvt*color9:    #FF2020
+! URxvt*color10:   #20FF20
+! URxvt*color11:   #FFFF00
+! URxvt*color12:   #4040FF
+! URxvt*color13:   #A800A8
+! URxvt*color14:   #00A8A8
+! URxvt*color15:   #D8D8D8
+
+XTerm*bellIsUrgent: true
+
+
+
+! xscreensaver ---------------------------------------------------------------
+!font settings
+xscreensaver.Dialog.headingFont:        -*-dejavu sans-bold-r-*-*-12-*-*-*-*-*-*-*
+xscreensaver.Dialog.bodyFont:           -*-dejavu sans-medium-r-*-*-12-*-*-*-*-*-*-*
+xscreensaver.Dialog.labelFont:          -*-dejavu sans-medium-r-*-*-12-*-*-*-*-*-*-*
+xscreensaver.Dialog.unameFont:          -*-dejavu sans-medium-r-*-*-12-*-*-*-*-*-*-*
+xscreensaver.Dialog.buttonFont:         -*-dejavu sans-bold-r-*-*-12-*-*-*-*-*-*-*
+xscreensaver.Dialog.dateFont:           -*-dejavu sans-medium-r-*-*-12-*-*-*-*-*-*-*
+xscreensaver.passwd.passwdFont:         -*-dejavu sans-bold-r-*-*-12-*-*-*-*-*-*-*
+!general dialog box (affects main hostname, username, password text)
+xscreensaver.Dialog.foreground:         #cccccc
+xscreensaver.Dialog.background:         #111111
+xscreensaver.Dialog.topShadowColor:     #222222
+xscreensaver.Dialog.bottomShadowColor:  #222222
+xscreensaver.Dialog.Button.foreground:  #eeeeee
+xscreensaver.Dialog.Button.background:  #333333
+!username/password input box and date text colour
+xscreensaver.Dialog.text.foreground:    #eeeeee
+xscreensaver.Dialog.text.background:    #333333
+xscreensaver.Dialog.internalBorderWidth:24
+xscreensaver.Dialog.borderWidth:        0
+xscreensaver.Dialog.shadowThickness:    1
+!timeout bar (background is actually determined by Dialog.text.background)
+xscreensaver.passwd.thermometer.foreground:  #00cc00
+xscreensaver.passwd.thermometer.background:  #222222
+xscreensaver.passwd.thermometer.width:       8
+!datestamp format--see the strftime(3) manual page for details
+xscreensaver.dateFormat:    %I:%M%P %a %b %d, %Y
+
+
+
+
+
+
+
+!x11-ssh-askpass*Dialog.font: -*-anorexia-medium-*-*-*-*-*-*-*-*-*-*-*
+x11-ssh-askpass*Dialog.font: -*-terminus-medium-*-*-*-16-*-*-*-*-*-*-*
+x11-ssh-askpass*?.foreground:          rgb:d0/d0/d0
+x11-ssh-askpass*?.background:          rgb:20/30/50
+x11-ssh-askpass*background:             #203050
+x11-ssh-askpass*foreground:             #ffffff
+x11-ssh-askpass*topShadowColor:        rgb:90/90/90
+x11-ssh-askpass*bottomShadowColor:     rgb:00/00/00
+x11-ssh-askpass*borderColor:           rgb:a0/a0/a0
+x11-ssh-askpass*shadowThickness:       0
+x11-ssh-askpass*borderWidth:           1
+x11-ssh-askpass*horizontalSpacing:     20
+x11-ssh-askpass*verticalSpacing:       10
+!x11-ssh-askpass*Button.font: -*-anorexia-medium-*-*-*-*-*-*-*-*-*-*-*
+x11-ssh-askpass*Button.font: -*-terminus-medium-*-*-*-16-*-*-*-*-*-*-*
+x11-ssh-askpass*Button.shadowThickness:    1
+x11-ssh-askpass*Button.borderWidth:        0
+x11-ssh-askpass*Button.horizontalSpacing:  50
+x11-ssh-askpass*Button.verticalSpacing:    10
+x11-ssh-askpass*Indicator.foreground: #00cc00
+x11-ssh-askpass*Indicator.background: #003300
+x11-ssh-askpass*Indicator.shadowThickness: 1
+x11-ssh-askpass*Indicator.borderWidth:     0
+x11-ssh-askpass*Indicator.height:      4
+x11-ssh-askpass*Indicator.width:       17
+x11-ssh-askpass*Indicator.horizontalSpacing:   4
+x11-ssh-askpass*Indicator.verticalSpacing: 1
+x11-ssh-askpass*Indicator.minimumCount:    15
+x11-ssh-askpass*Indicator.maximumCount:    15
+x11-ssh-askpass*defaultXResolution:        75/in
+x11-ssh-askpass*defaultYResolution:        75/in
+x11-ssh-askpass*xResolutionFuzz:       20/in
+x11-ssh-askpass*yResolutionFuzz:       20/in
+
+
+!urxvt settings-------------------------------------------------------------     
+
+urxvt*background:               black
+urxvt*foreground:               white
+urxvt*transparent:              false
+urxvt*shading:                  20
+urxvt*cursorColor:              #ff3333
+urxvt*saveLines:                2000
+!urxvt*tinting:                 gray
+urxvt*scrollBar:                false
+urxvt*scrollBar_right:          true
+urxvt*transpscrollbar:          true
+urxvt*scrollColor:#383838
+urxvt*borderwidth:              0
+! this allows bold fonts:
+!urxvt*font:                     -*-terminus-*-*-*-*-16-*-*-*-*-*-*-*
+!urxvt*boldFont:                 -*-terminus-*-*-*-*-16-*-*-*-*-*-*-*
+urxvt*font:                     -*-terminus-medium-*-*-*-12-*-*-*-*-*-*-*
+urxvt*boldFont:                 -*-terminus-medium-*-*-*-12-*-*-*-*-*-*-*
+urxvt*geometry:                 80x25
+!urxvt*fading:                  70  
+
+! urxvt.perl-ext-common: default,tabbed,digital-clock
+
+urxvt.perl-ext-common: font-size
+! URxvt.keysym.C-Up:     perl:font-size:increase
+! URxvt.keysym.C-Down:   perl:font-size:decrease
+! URxvt.keysym.C-S-Up:   perl:font-size:incglobal
+! URxvt.keysym.C-S-Down: perl:font-size:decglobal
+urxvt.keysym.C-Up:     perl:font-size:increase
+urxvt.keysym.C-Down:   perl:font-size:decrease
+urxvt.keysym.C-plus:     perl:font-size:increase
+urxvt.keysym.C-minus:     perl:font-size:decrease
+
+
+
+! fallback:
+urxvt.termName:     rxvt-unicode
+! default:
+! urxvt.termName:     rxvt-unicode-256color
+
+! urxvt.keysym.C-S-Up:   perl:font-size:incglobal
+! urxvt.keysym.C-S-Down: perl:font-size:decglobal
+
+! urxvt.keysym.C-S-Up:   perl:font-size:incglobal
+
+! URxvt.perl-ext-common: ...,font-size
+
+
+
+urxvt.pointerBlank: 1
+urxvt.pointerBlankDelay: 3
+
